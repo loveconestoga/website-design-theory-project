@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Common css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/reservation.css" />
+    <title>Reservation</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex justify-between">
+        <div id="logo"><a href="index.html">Travels</a></div>
+        <div class="flex">
+          <div class="margin-r-8">
+            <a href="reservation.html">Reservation</a>
+          </div>
+          <div class="margin-r-8">
+            <a href="reservation.html">Destinations</a>
+          </div>
+          <div class="margin-r-8"><a href="#">Blogs</a></div>
+          <div class="margin-r-8"><a href="#">Places</a></div>
+          <div class="margin-r-8"><a href="#">Packages</a></div>
+          <div class="margin-r-8"><a href="aboutus.html">About Us</a></div>
+        </div>
+      </div>
+    </header>
+    <main id="reservation" class="section margin-t-0">
+      <h1 class="text-center">Reservation Form</h1>
+      <p class="text-center">
+        The form is given here, you can fill your information down there with
+        your requirements.
+      </p>
+      <div class="text-center">
+        <form>
+          <h2>Customer Information</h2>
+          <div class="flex">
+            <div class="flex-1 margin-r-32">
+              <label for="name">First Name</label><br />
+              <input type="text" id="name" placeholder="Firstname" />
+            </div>
+            <div class="flex-1">
+              <label for="name"> Last Name</label><br />
+              <input type="text" id="name" placeholder="Lastname" />
+            </div>
+          </div>
+          <div class="margin-t-12">
+            <label for="email">Email</label><br />
+            <input type="email" id="email" />
+          </div>
+          <div class="margin-t-12">
+            <label for="phone">Phone</label><br />
+            <input type="number" id="phone" placeholder="### ### ####" />
+          </div>
+
+          <h2>Travel Dates</h2>
+          <div class="flex">
+            <div class="flex-1 margin-r-32">
+              <label for="departure">Departure</label><br />
+              <input type="date" id="departure" />
+            </div>
+            <div class="flex-1">
+              <label for="return">Return</label><br />
+              <input type="date" id="return" />
+            </div>
+          </div>
+          <h2>Destination</h2>
+          <label for="country">Country</label><br />
+          <select id="country">
+            <option value="Goa">Goa</option>
+            <option value="Shimla">Shimla</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Kerela">Kerala</option></select
+          ><br />
+          <div class="margin-t-12">
+            <label for="city">City</label><br />
+            <select id="city">
+              <option value="panaji">Panaji</option>
+              <option value="kufri">Kufri</option>
+              <option value="Amritsar">Amritsar</option>
+              <option value="Kochi">Kochi</option>
+            </select>
+          </div>
+          <div class="margin-t-12">
+            <input type="button" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="flex">
+        <div id="footer_logo">
+          <h4><a href="index.html">Travels</a></h4>
+        </div>
+        <div class="flex flex-2 justify-around">
+          <ul>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Destinations</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Packages</a></li>
+          </ul>
+        </div>
+        <div class="flex-1 margin-t-12">
+          <a class="text-underline" href="mailto:business@gmail.com"
+            >business@gmail.com</a
+          >
+          <br />
+          <a class="margin-t-12" href="phone:business@gmail.com"
+            >+16132766690</a
+          >
+          <p>Unit 306, Bridgeport</p>
+          <p>70 Conestoga Mall, Waterloo, E1W 306</p>
+        </div>
+      </div>
+      <hr />
+      <div class="flex copyright justify-center">
+        <div>&copy; 2024 TravelWorld, Inc. All Rights Reserved</div>
+      </div>
+    </footer>
+  </body>
+</html>

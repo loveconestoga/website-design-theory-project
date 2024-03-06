@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* <----------- HEADER START----------->*/
+header {
+  background-color: white;
+  padding: 16px;
+}
+
+header > div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header a {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+#logo {
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#logo a {
+  font-size: 24px !important;
+  color: rgb(225, 152, 17);
+}
+
+/* -----------HEADER END -----------*/
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.margin-y-32 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.margin-r-8 {
+  margin-right: 8px;
+}
+
+.margin-r-64 {
+  margin-right: 64px;
+}
+
+.margin-r-32 {
+  margin-right: 32px;
+}
+
+.margin-t-0 {
+  margin-top: 0 !important;
+}
+
+.margin-t-12 {
+  margin-top: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.section {
+  width: 80%;
+  margin: 64px auto;
+}
+
+.border-r-12 {
+  border-radius: 12px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+/* -------------- FOOTER START --------------*/
+#footer_logo {
+  font-size: 32px;
+}
+
+footer {
+  background-color: rgb(27, 27, 26);
+  color: white;
+}
+
+footer > div {
+  margin: 0px auto 0 auto;
+  width: 60%;
+}
+
+footer ul li {
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+footer .copyright {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+}
+
+footer hr {
+  border-color: rgb(88, 88, 88);
+}
+
+/* ------------ FOOTER END ---------------------*/
+
+a {
+  text-decoration: none;
+}
