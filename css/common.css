@@ -34,6 +34,23 @@ header a {
   color: rgb(225, 152, 17);
 }
 
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: white;
+    padding: 8px;
+  }
+
+  header > div {
+    width: 100%;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Add any specific styles for medium screens here */
+}
+
 /* -----------HEADER END -----------*/
 
 .flex {
@@ -144,8 +161,40 @@ footer hr {
   border-color: rgb(88, 88, 88);
 }
 
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  #footer_logo {
+    display: none;
+  }
+
+  footer > div {
+    width: 100%;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Add any specific styles for medium screens here */
+}
+
 /* ------------ FOOTER END ---------------------*/
 
 a {
   text-decoration: none;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .section {
+    width: 90%;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Add any specific styles for medium screens here */
 }

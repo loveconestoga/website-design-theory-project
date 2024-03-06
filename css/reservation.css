@@ -48,3 +48,28 @@ input[type="button"] {
   padding: 4px 8px;
   font-size: 20px;
 }
+
+/* Media query for small screens */
+@media only screen and (max-width: 800px) {
+  #reservation h1,
+  #reservation p {
+    color: white;
+  }
+
+  form {
+    padding: 12px;
+    width: 90%;
+  }
+
+  form .margin-r-32 {
+    margin-right: 8px;
+  }
+
+  form input,
+  form select {
+    width: 100%;
+    padding: 4px 0;
+    margin-top: 8px;
+    font-size: 16px;
+  }
+}
