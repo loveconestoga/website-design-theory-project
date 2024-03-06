@@ -24,9 +24,8 @@ header a {
   font-size: 12px;
 }
 
-#logo {
-  font-style: italic;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+#logo img {
+  width: 100px;
 }
 
 #logo a {
@@ -43,6 +42,10 @@ header a {
 
   header > div {
     width: 100%;
+  }
+
+  #logo img {
+    width: 70px;
   }
 }
 
