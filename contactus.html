@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Common css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/contactus.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Travels</title>
+  </head>
+  <body>
+    <!--section one-->
+    <header>
+      <div class="flex justify-between">
+        <div id="logo">
+          <a href="index.html"><img src="./images/logo_header.jpg" /></a>
+        </div>
+        <div class="flex desktop-menu">
+          <div class="margin-r-8">
+            <a href="reservation.html">Reservation</a>
+          </div>
+          <div class="margin-r-8"><a href="aboutus.html">About Us</a></div>
+          <div class="margin-r-8">
+            <a href="blog.html">Blogs</a>
+          </div>
+          <div class="margin-r-8">
+            <a href="packages.html">packages</a>
+          </div>
+          <div class="margin-r-8">
+            <a href="contactus.html">Contact us</a>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <ul class="menu">
+            <li><a class="menuItem" href="index.html">Reservation</a></li>
+            <li><a class="menuItem" href="reservation.html">About Us</a></li>
+            <li><a class="menuItem" href="blog.html">Blogs</a></li>
+            <li><a class="menuItem" href="packages.html">packages</a></li>
+            <li><a class="menuItem" href="contactus.html">Contact us</a></li>
+          </ul>
+          <button class="hamburger">
+            <span class="menuIcon">
+              <i class="material-icons">menu</i>
+            </span>
+            <span class="closeIcon">
+              <i class="material-icons">close</i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="contactus">
+      <div class="relative">
+        <div>
+          <span class="absolute contact_us_heading">Contact Us</span>
+          <hr />
+          <p class="text-center font-white">
+            Fill out the form below to contact us!
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <form>
+          <div class="flex">
+            <div class="flex-1 margin-r-32">
+              <label for="first-name">first name</label><br />
+              <input type="text" id="first-name" />
+            </div>
+            <div class="flex-1">
+              <label for="last-name">last name</label><br />
+              <input type="text" id="last-name" />
+            </div>
+          </div>
+          <div class="margin-t-12">
+            <label for="email">email</label><br />
+            <input type="email" id="email" />
+          </div>
+
+          <div class="margin-t-12">
+            <label for="comments">comments</label><br />
+            <textarea id="comments"></textarea>
+          </div>
+          <div class="margin-t-12">
+            <input type="button" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="flex">
+        <div id="footer_logo">
+          <h4>
+            <a href="index.html"><img src="./images/logo_footer.jpg" /></a>
+          </h4>
+        </div>
+        <div class="flex flex-2 justify-around">
+          <ul>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Destinations</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Packages</a></li>
+          </ul>
+        </div>
+        <div class="flex-1 margin-t-12">
+          <a class="text-underline" href="mailto:business@gmail.com"
+            >business@gmail.com</a
+          >
+          <br />
+          <br />
+          <a class="margin-t-12" href="phone:business@gmail.com"
+            >+16132766690</a
+          >
+          <p>Unit 306, Bridgeport</p>
+          <p>70 Conestoga Mall, Waterloo, E1W 306</p>
+        </div>
+      </div>
+      <hr />
+      <div class="flex copyright justify-center">
+        <div>&copy; 2024 , TravelWorld, Inc. All Rights Reserved</div>
+      </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+  </body>
+</html>

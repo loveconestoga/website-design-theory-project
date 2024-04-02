@@ -105,6 +105,10 @@ header a {
   margin-top: 12px;
 }
 
+.margin-t-64 {
+  margin-top: 64px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -164,6 +168,10 @@ footer hr {
   border-color: rgb(88, 88, 88);
 }
 
+.font-white {
+  color: white;
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
   #footer_logo {
@@ -190,14 +198,87 @@ a {
   text-decoration: none;
 }
 
+.primary-button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(225, 152, 17);
+  padding: 8px 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
   .section {
     width: 90%;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
   }
 }
 
 /* Media query for medium screens */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Add any specific styles for medium screens here */
+  .desktop-menu {
+    display: flex;
+  }
+}
+
+/* HAMBURGER */
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  padding: 4px;
+  border: 0;
+  background: white;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-102%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: white;
+  color: black;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(-2%);
 }

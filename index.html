@@ -6,6 +6,10 @@
     <!-- Common css -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Travels</title>
   </head>
   <body>
@@ -15,11 +19,37 @@
         <div id="logo">
           <a href="index.html"><img src="./images/logo_header.jpg" /></a>
         </div>
-        <div class="flex">
+        <div class="flex desktop-menu">
           <div class="margin-r-8">
             <a href="reservation.html">Reservation</a>
           </div>
           <div class="margin-r-8"><a href="aboutus.html">About Us</a></div>
+          <div class="margin-r-8">
+            <a href="blog.html">Blogs</a>
+          </div>
+          <div class="margin-r-8">
+            <a href="packages.html">packages</a>
+          </div>
+          <div class="margin-r-8">
+            <a href="contactus.html">Contact us</a>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <ul class="menu">
+            <li><a class="menuItem" href="index.html">Reservation</a></li>
+            <li><a class="menuItem" href="reservation.html">About Us</a></li>
+            <li><a class="menuItem" href="blog.html">Blogs</a></li>
+            <li><a class="menuItem" href="packages.html">packages</a></li>
+            <li><a class="menuItem" href="contactus.html">Contact us</a></li>
+          </ul>
+          <button class="hamburger">
+            <span class="menuIcon">
+              <i class="material-icons">menu</i>
+            </span>
+            <span class="closeIcon">
+              <i class="material-icons">close</i>
+            </span>
+          </button>
         </div>
       </div>
     </header>
@@ -140,7 +170,7 @@
           </ul>
           <ul>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Content</a></li>
+            <li><a href="#">Contact us</a></li>
             <li><a href="#">Packages</a></li>
           </ul>
         </div>
@@ -149,7 +179,7 @@
             >business@gmail.com</a
           >
           <br />
-          <br/>
+          <br />
           <a class="margin-t-12" href="phone:business@gmail.com"
             >+16132766690</a
           >
@@ -162,5 +192,7 @@
         <div>&copy; 2024 , TravelWorld, Inc. All Rights Reserved</div>
       </div>
     </footer>
+
+    <script src="js/hamburger.js"></script>
   </body>
 </html>

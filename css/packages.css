@@ -1,0 +1,18 @@
+.package {
+  border: 1px solid lightgray;
+  border-top: 0;
+  box-shadow: 1px 1px lightgrey;
+  padding: 8px 8px;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 950px) {
+  .section .flex {
+    flex-direction: column;
+  }
+
+  .section .flex .margin-r-64 {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
